@@ -22,7 +22,7 @@ class Animal {
 
 
 class Zoo {
-    Animal[] animals; // tableau d’animaux
+    Animal[] animals; 
     String name;
     String city;
     int nbrCages;
@@ -32,7 +32,7 @@ class Zoo {
         this.name = name;
         this.city = city;
         this.nbrCages = nbrCages;
-        this.animals = new Animal[25]; // max 25 animaux
+        this.animals = new Animal[25]; 
     }
 
    
